@@ -1,0 +1,44 @@
+ext {
+    version = [
+            minSdkVersion    : 19,
+            compileSdkVersion: 28,
+            targetSdkVersion : 28,
+            versionCode      : 10000,
+            versionName      : "1.0.0",
+    ]
+
+    dependVersion = [
+            support_version: "28.0.0",
+            rxJava         : "2.1.12",
+            rxAndroid      : "2.0.2",
+            rxlifecycle    : "3.0.0",
+            butterknife    : "10.1.0",
+    ]
+
+    supportLib = [
+            v7      : "com.android.support:appcompat-v7:$dependVersion.support_version",
+            design  : "com.android.support:design:$dependVersion.support_version",
+    ]
+
+    rxJavaLib = [
+            rxJava            : "io.reactivex.rxjava2:rxjava:$dependVersion.rxJava",
+            rxAndroid         : "io.reactivex.rxjava2:rxandroid:$dependVersion.rxAndroid",
+            rxlifecycle       : "com.trello.rxlifecycle3:rxlifecycle-android:$dependVersion.rxlifecycle",
+            rxlifecycle_common: "com.trello.rxlifecycle3:rxlifecycle-components:$dependVersion.rxlifecycle"
+    ]
+
+    butterknifeLib = [
+            butterknife: "com.jakewharton:butterknife:$dependVersion.butterknife",
+    ]
+    butterknifeCompiler = "com.jakewharton:butterknife-compiler:$dependVersion.butterknife"
+
+    ysnLib = [
+            chrysanthemum_view: "com.github.yangsanning:ChrysanthemumView:1.0.0",
+            status_bar        : "com.github.yangsanning:StatusBarUtils:1.0.0",
+    ]
+
+    supportLibs = supportLib.values()
+    rxJavaLibs = rxJavaLib.values()
+    butterknifeLibs = butterknifeLib.values()
+    ysnLibs = ysnLib.values()
+}
