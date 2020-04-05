@@ -1,6 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="app_white">#FFFFFF</color>
+    <color name="app_black">#000000</color>
+    <!--235,66,66-->
+    <color name="app_red">#EB4242</color>
+    <!--42,189,95-->
+    <color name="app_green">#2ABD5F</color>
+    <!--64,154,214-->
+    <color name="app_blue">#308ef2</color>
+    <color name="app_blue_02">#33308ef2</color>
+    <!--242,113,0-->
+    <color name="app_orange">#F27100</color>
+    <!--216,42,202-->
+    <color name="app_pink_purple">#D82ACA</color>
+    <!--145,68,211-->
+    <color name="app_purple">#9144D3</color>
+
+    <color name="app_transparent">#00000000</color>
+    <color name="app_translucent">#50000000</color>
+
+    <!--51,51,51-->
+    <color name="app_text_title">#333333</color>
+
+    <color name="app_text_title_alternate">#222222</color>
+
+    <!--102,102,102-->
+    <color name="app_text_summary">#666666</color>
+    <!--153,153,153-->
+    <color name="app_text_hint">#999999</color>
+    <!--170,170,170-->
+    <color name="app_icon">#AAAAAA</color>
+
+    <!--rgb(204,204,204)-->
+    <color name="app_icon_select">#CCCCCC</color>
+
+    <!--229,229,229-->
+    <color name="app_line_background">#E5E5E5</color>
+
+    <!--213,213,213-->
+    <color name="app_dotted_line_background">#D5D5D5</color>
+
+    <!--245,245,245-->
+    <color name="app_background">#F5F5F5</color>
+
+    // 衍生颜色
+    <color name="transparent90">#90000000</color>
+
+
+    <color name="app_bg">#1F2024</color>
 </resources>

@@ -16,8 +16,8 @@ ext {
     ]
 
     supportLib = [
-            v7      : "com.android.support:appcompat-v7:$dependVersion.support_version",
-            design  : "com.android.support:design:$dependVersion.support_version",
+            v7    : "com.android.support:appcompat-v7:$dependVersion.support_version",
+            design: "com.android.support:design:$dependVersion.support_version",
     ]
 
     rxJavaLib = [
@@ -33,8 +33,10 @@ ext {
     butterknifeCompiler = "com.jakewharton:butterknife-compiler:$dependVersion.butterknife"
 
     ysnLib = [
-            chrysanthemum_view: "com.github.yangsanning:ChrysanthemumView:1.0.0",
-            status_bar        : "com.github.yangsanning:StatusBarUtils:1.0.0",
+            chrysanthemum_view        : "com.github.yangsanning:ChrysanthemumView:1.0.0",
+            status_bar                : "com.github.yangsanning:StatusBarUtils:1.0.0",
+            baseitem_decoration       : "com.github.yangsanning:BaseItemDecoration:1.1.0",
+            base_recycler_view_adapter: "com.github.yangsanning:BaseRecyclerViewAdapter:1.0.0",
     ]
 
     supportLibs = supportLib.values()
